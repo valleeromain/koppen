@@ -1,0 +1,127 @@
+{
+  "meta": { "lang": "pt", "dir": "ltr", "font": "Inter" },
+
+  "app": {
+    "title": "ClimateWatch - Rastreamento Köppen dos climas europeus",
+    "subtitle": "Rastreamento de zonas climáticas • Classificação de Köppen"
+  },
+
+  "sidebar": {
+    "place": "Local selecionado",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "search_hint": "Pesquisar um local clicando no mapa",
+    "temp_label": "Temperatura média",
+    "precip_label": "Precipitação anual",
+    "trend_label": "Tendência / década",
+    "point_label": "Ponto ERA5",
+    "year_label": "Ano",
+    "btn_evolution": "Evolução",
+    "btn_analysis": "Análise IA",
+    "btn_koppen_show": "Mapa Köppen",
+    "btn_koppen_hide": "Ocultar mapa",
+    "transitions_title": "Transições climáticas",
+    "decades_title": "Distribuição por década",
+    "loading": "Carregando...",
+    "climate_stable": "Clima estável",
+    "no_decade_data": "Dados por década não disponíveis",
+    "climate_change": "Mudança climática"
+  },
+
+  "decade_table": {
+    "decade": "Década",
+    "temp": "Temp.",
+    "precip": "Precip.",
+    "climate": "Clima"
+  },
+
+  "map": {
+    "popup_climate": "Clima",
+    "popup_temp": "Temperatura média",
+    "popup_precip": "Precipitação total",
+    "popup_click_hint": "Clique para selecionar esta zona",
+    "popup_trend": "Tendência",
+    "topo_not_loaded": "A camada climática ainda não foi carregada",
+    "topo_not_found": "Arquivo TopoJSON não encontrado. A sobreposição climática não está disponível.",
+    "geocoding_loading": "Carregando..."
+  },
+
+  "modal_evolution": {
+    "title": "Evolução histórica do clima",
+    "btn_temp": "Temperaturas",
+    "btn_precip": "Precipitações",
+    "btn_both": "Comparação",
+    "chart_temp_title": "Evolução das temperaturas",
+    "chart_precip_title": "Evolução das precipitações",
+    "chart_both_title": "Comparação temperatura / precipitação",
+    "stat_period": "Período",
+    "stat_avg_temp": "Temperatura média",
+    "stat_total_precip": "Precipitação total",
+    "stat_trend": "Tendência",
+    "transitions_title": "Detalhe das transições",
+    "no_transition": "Nenhuma transição detectada",
+    "decades_title": "Décadas",
+    "no_data": "Nenhum dado histórico disponível",
+    "per_decade": "°C/década"
+  },
+
+  "modal_analysis": {
+    "title": "Análise climática por IA",
+    "loading": "Gerando a análise…",
+    "model_label": "Llama 3.3 via Groq",
+    "error_no_place": "Carregue primeiro um local",
+    "error_connection": "Erro de conexão"
+  },
+
+  "legend": {
+    "title": "Classificação de Köppen",
+    "oceanic": "Oceânico temperado (Cfb)",
+    "continental": "Continental (Dfb)",
+    "mediterranean": "Mediterrâneo (Csa)",
+    "tundra": "Tundra (ET)",
+    "desert": "Desértico (BWh)",
+    "steppe": "Estepe (BSh)",
+    "tropical": "Tropical (Af)",
+    "subarctic": "Subártico (Dfc)"
+  },
+
+  "errors": {
+    "no_climate_data": "Sem dados climáticos",
+    "connection_error": "Erro de conexão",
+    "place_not_found": "Local não encontrado"
+  },
+
+  "koppen": {
+    "Af":  "Floresta tropical – Temperatura > 18°C todos os meses, precipitação > 60 mm",
+    "Am":  "Monção tropical – Estação seca curta",
+    "Aw":  "Savana tropical – Estação seca no inverno",
+    "As":  "Savana tropical – Estação seca no verão",
+    "BWh": "Deserto quente – Precipitação < 50% do limiar de aridez, temperatura > 18°C",
+    "BWk": "Deserto frio – Precipitação < 50% do limiar de aridez, temperatura < 18°C",
+    "BSh": "Estepe quente – Precipitação entre 50% e 100% do limiar de aridez, temperatura > 18°C",
+    "BSk": "Estepe fria – Precipitação entre 50% e 100% do limiar de aridez, temperatura < 18°C",
+    "Cfa": "Subtropical húmido – Verão quente (> 22°C), sem estação seca",
+    "Cfb": "Oceânico temperado – Verão ameno (< 22°C), chuvas regulares todo o ano",
+    "Cfc": "Oceânico fresco – Verão curto e fresco, precipitação abundante",
+    "Csa": "Mediterrâneo quente – Verão quente e seco, inverno ameno e húmido",
+    "Csb": "Mediterrâneo ameno – Verão seco e temperado, inverno moderado",
+    "Csc": "Mediterrâneo frio – Verão fresco e seco, inverno frio",
+    "Cwa": "Subtropical com inverno seco – Verão quente, estação seca no inverno",
+    "Cwb": "Subtropical com inverno seco – Verão ameno, estação seca no inverno",
+    "Cwc": "Subtropical fresco com inverno seco – Verão fresco, estação seca no inverno",
+    "Dfa": "Continental quente – Verão quente (> 22°C), inverno frio (< -3°C)",
+    "Dfb": "Continental húmido – Verão ameno, inverno frio e nevado",
+    "Dfc": "Subártico – Verão curto, inverno muito frio",
+    "Dfd": "Siberiano – Inverno extremamente frio, verão muito curto",
+    "Dsa": "Continental com verão seco e quente – Inverno frio",
+    "Dsb": "Continental com verão seco e ameno – Inverno frio",
+    "Dsc": "Continental com verão seco e fresco – Inverno frio",
+    "Dsd": "Continental muito frio com verão seco – Inverno extremamente frio",
+    "Dwa": "Continental monçânico – Verão quente, inverno seco e frio",
+    "Dwb": "Continental monçânico ameno – Verão ameno, inverno seco e frio",
+    "Dwc": "Subártico monçânico – Verão fresco, inverno seco e frio",
+    "Dwd": "Continental monçânico extremamente frio – Inverno seco e muito frio",
+    "ET":  "Tundra – Verão fresco (< 10°C máx.), permafrost",
+    "EF":  "Calota glaciar – Todos os meses < 0°C, gelo permanente"
+  }
+}
