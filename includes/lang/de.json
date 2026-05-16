@@ -1,0 +1,127 @@
+{
+  "meta": { "lang": "de", "dir": "ltr", "font": "Inter" },
+
+  "app": {
+    "title": "ClimateWatch - Köppen-Klimaverfolgung für Europa",
+    "subtitle": "Klimazonenverfolgung • Köppen-Klassifikation"
+  },
+
+  "sidebar": {
+    "place": "Ausgewählter Ort",
+    "latitude": "Breitengrad",
+    "longitude": "Längengrad",
+    "search_hint": "Ort durch Klick auf die Karte suchen",
+    "temp_label": "Durchschnittstemperatur",
+    "precip_label": "Jahresniederschlag",
+    "trend_label": "Trend / Jahrzehnt",
+    "point_label": "ERA5-Punkt",
+    "year_label": "Jahr",
+    "btn_evolution": "Verlauf",
+    "btn_analysis": "KI-Analyse",
+    "btn_koppen_show": "Köppen-Karte",
+    "btn_koppen_hide": "Karte ausblenden",
+    "transitions_title": "Klimaübergänge",
+    "decades_title": "Verteilung nach Jahrzehnt",
+    "loading": "Laden...",
+    "climate_stable": "Stabiles Klima",
+    "no_decade_data": "Keine Jahrzehntdaten verfügbar",
+    "climate_change": "Klimawandel"
+  },
+
+  "decade_table": {
+    "decade": "Jahrzehnt",
+    "temp": "Temp.",
+    "precip": "Niederschl.",
+    "climate": "Klima"
+  },
+
+  "map": {
+    "popup_climate": "Klima",
+    "popup_temp": "Durchschnittstemperatur",
+    "popup_precip": "Gesamtniederschlag",
+    "popup_click_hint": "Klicken, um diese Zone auszuwählen",
+    "popup_trend": "Trend",
+    "topo_not_loaded": "Klimaschicht noch nicht geladen",
+    "topo_not_found": "TopoJSON-Datei nicht gefunden. Klimaüberlagerung nicht verfügbar.",
+    "geocoding_loading": "Laden..."
+  },
+
+  "modal_evolution": {
+    "title": "Historische Klimaentwicklung",
+    "btn_temp": "Temperaturen",
+    "btn_precip": "Niederschlag",
+    "btn_both": "Vergleich",
+    "chart_temp_title": "Temperaturentwicklung",
+    "chart_precip_title": "Niederschlagsentwicklung",
+    "chart_both_title": "Temperatur / Niederschlag Vergleich",
+    "stat_period": "Zeitraum",
+    "stat_avg_temp": "Durchschnittstemperatur",
+    "stat_total_precip": "Gesamtniederschlag",
+    "stat_trend": "Trend",
+    "transitions_title": "Übergangsdetails",
+    "no_transition": "Kein Übergang erkannt",
+    "decades_title": "Jahrzehnte",
+    "no_data": "Keine historischen Daten verfügbar",
+    "per_decade": "°C/Jahrzehnt"
+  },
+
+  "modal_analysis": {
+    "title": "KI-Klimaanalyse",
+    "loading": "Analyse wird erstellt…",
+    "model_label": "Llama 3.3 via Groq",
+    "error_no_place": "Bitte zuerst einen Ort laden",
+    "error_connection": "Verbindungsfehler"
+  },
+
+  "legend": {
+    "title": "Köppen-Klassifikation",
+    "oceanic": "Ozeanisch gemäßigt (Cfb)",
+    "continental": "Kontinental (Dfb)",
+    "mediterranean": "Mediterran (Csa)",
+    "tundra": "Tundra (ET)",
+    "desert": "Wüste (BWh)",
+    "steppe": "Steppe (BSh)",
+    "tropical": "Tropisch (Af)",
+    "subarctic": "Subarktisch (Dfc)"
+  },
+
+  "errors": {
+    "no_climate_data": "Keine Klimadaten",
+    "connection_error": "Verbindungsfehler",
+    "place_not_found": "Ort nicht gefunden"
+  },
+
+  "koppen": {
+    "Af":  "Tropischer Regenwald – Temperatur > 18°C jeden Monat, Niederschlag > 60 mm",
+    "Am":  "Tropischer Monsun – Kurze Trockenzeit",
+    "Aw":  "Tropische Savanne – Winterliche Trockenzeit",
+    "As":  "Tropische Savanne – Sommerliche Trockenzeit",
+    "BWh": "Heißwüste – Niederschlag < 50% der Ariditätsschwelle, Temperatur > 18°C",
+    "BWk": "Kaltwüste – Niederschlag < 50% der Ariditätsschwelle, Temperatur < 18°C",
+    "BSh": "Heiße Steppe – Niederschlag zwischen 50% und 100% der Ariditätsschwelle, Temperatur > 18°C",
+    "BSk": "Kalte Steppe – Niederschlag zwischen 50% und 100% der Ariditätsschwelle, Temperatur < 18°C",
+    "Cfa": "Feuchtes Subtropisches Klima – Heißer Sommer (> 22°C), keine Trockenzeit",
+    "Cfb": "Ozeanisches Klima – Milder Sommer (< 22°C), gleichmäßiger Niederschlag",
+    "Cfc": "Subpolares Ozeanklima – Kurzer kühler Sommer, viel Niederschlag",
+    "Csa": "Mediterranes Klima – Heißer trockener Sommer, milder feuchter Winter",
+    "Csb": "Mediterranes Klima – Trockener milder Sommer, gemäßigter Winter",
+    "Csc": "Mediterranes Klima – Kühler trockener Sommer, kalter Winter",
+    "Cwa": "Subtropisches Monsunklima – Heißer Sommer, trockener Winter",
+    "Cwb": "Subtropisches Hochlandklima – Milder Sommer, trockener Winter",
+    "Cwc": "Kühles subtropisches Hochlandklima – Kühler Sommer, trockener Winter",
+    "Dfa": "Kontinentales Klima – Heißer Sommer (> 22°C), kalter Winter (< -3°C)",
+    "Dfb": "Feuchtkontinentales Klima – Milder Sommer, kalter schneereicher Winter",
+    "Dfc": "Subarktisches Klima – Kurzer Sommer, sehr kalter Winter",
+    "Dfd": "Extrem kaltes subarktisches Klima – Extrem kalter Winter, sehr kurzer Sommer",
+    "Dsa": "Kontinentales Klima mit heißem trockenem Sommer – Kalter Winter",
+    "Dsb": "Kontinentales Klima mit warmem trockenem Sommer – Kalter Winter",
+    "Dsc": "Kontinentales Klima mit kühlem trockenem Sommer – Kalter Winter",
+    "Dsd": "Sehr kaltes kontinentales Klima – Extrem kalter trockener Winter",
+    "Dwa": "Monsunkontinentales Klima – Heißer Sommer, trockener kalter Winter",
+    "Dwb": "Mildes Monsunkontinentalklima – Milder Sommer, trockener kalter Winter",
+    "Dwc": "Subarktisches Monsunklima – Kühler Sommer, trockener kalter Winter",
+    "Dwd": "Extrem kaltes Monsunklima – Extrem kalter trockener Winter",
+    "ET":  "Tundra – Kühler Sommer (< 10°C max), Permafrost",
+    "EF":  "Eiskappe – Alle Monate unter 0°C, permanentes Eis"
+  }
+}
