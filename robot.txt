@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iaanalytix.com/koppen/sitemap.xml
