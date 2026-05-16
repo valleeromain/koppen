@@ -1,0 +1,127 @@
+{
+  "meta": { "lang": "en", "dir": "ltr", "font": "Inter" },
+
+  "app": {
+    "title": "ClimateWatch - Kï¿½ppen Climate Tracker for Europe",
+    "subtitle": "Climate zone tracking o Kï¿½ppen classification"
+  },
+
+  "sidebar": {
+    "place": "Selected location",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "search_hint": "Search a location by clicking on the map",
+    "temp_label": "Average temperature",
+    "precip_label": "Annual precipitation",
+    "trend_label": "Trend / decade",
+    "point_label": "ERA5 point",
+    "year_label": "Year",
+    "btn_evolution": "History",
+    "btn_analysis": "AI Analysis",
+    "btn_koppen_show": "Kï¿½ppen Map",
+    "btn_koppen_hide": "Hide map",
+    "transitions_title": "Climate transitions",
+    "decades_title": "Decade distribution",
+    "loading": "Loading...",
+    "climate_stable": "Stable climate",
+    "no_decade_data": "No decade data available",
+    "climate_change": "Climate change"
+  },
+
+  "decade_table": {
+    "decade": "Decade",
+    "temp": "Temp.",
+    "precip": "Precip.",
+    "climate": "Climate"
+  },
+
+  "map": {
+    "popup_climate": "Climate",
+    "popup_temp": "Average temperature",
+    "popup_precip": "Total precipitation",
+    "popup_click_hint": "Click to select this zone",
+    "popup_trend": "Trend",
+    "topo_not_loaded": "Climate layer not yet loaded",
+    "topo_not_found": "TopoJSON file not found. Climate overlay is unavailable.",
+    "geocoding_loading": "Loading..."
+  },
+
+  "modal_evolution": {
+    "title": "Historical climate evolution",
+    "btn_temp": "Temperatures",
+    "btn_precip": "Precipitation",
+    "btn_both": "Comparison",
+    "chart_temp_title": "Temperature evolution",
+    "chart_precip_title": "Precipitation evolution",
+    "chart_both_title": "Temperature / precipitation comparison",
+    "stat_period": "Period",
+    "stat_avg_temp": "Average temperature",
+    "stat_total_precip": "Total precipitation",
+    "stat_trend": "Trend",
+    "transitions_title": "Transition details",
+    "no_transition": "No transition detected",
+    "decades_title": "Decades",
+    "no_data": "No historical data available",
+    "per_decade": "ï¿½C/decade"
+  },
+
+  "modal_analysis": {
+    "title": "AI Climate Analysis",
+    "loading": "Generating analysis...",
+    "model_label": "Llama 3.3 via Groq",
+    "error_no_place": "Please load a location first",
+    "error_connection": "Connection error"
+  },
+
+  "legend": {
+    "title": "Kï¿½ppen Classification",
+    "oceanic": "Oceanic temperate (Cfb)",
+    "continental": "Continental (Dfb)",
+    "mediterranean": "Mediterranean (Csa)",
+    "tundra": "Tundra (ET)",
+    "desert": "Desert (BWh)",
+    "steppe": "Steppe (BSh)",
+    "tropical": "Tropical (Af)",
+    "subarctic": "Subarctic (Dfc)"
+  },
+
+  "errors": {
+    "no_climate_data": "No climate data",
+    "connection_error": "Connection error",
+    "place_not_found": "Location not found"
+  },
+
+  "koppen": {
+    "Af":  "Tropical rainforest - Temperature > 18ï¿½C every month, precipitation > 60 mm",
+    "Am":  "Tropical monsoon - Short dry season",
+    "Aw":  "Tropical savanna - Winter dry season",
+    "As":  "Tropical savanna - Summer dry season",
+    "BWh": "Hot desert - Precipitation < 50% of aridity threshold, temperature > 18ï¿½C",
+    "BWk": "Cold desert - Precipitation < 50% of aridity threshold, temperature < 18ï¿½C",
+    "BSh": "Hot steppe - Precipitation between 50% and 100% of aridity threshold, temperature > 18ï¿½C",
+    "BSk": "Cold steppe - Precipitation between 50% and 100% of aridity threshold, temperature < 18ï¿½C",
+    "Cfa": "Humid subtropical - Hot summer (> 22ï¿½C), no dry season",
+    "Cfb": "Oceanic - Mild summer (< 22ï¿½C), regular rainfall all year",
+    "Cfc": "Subpolar oceanic - Short cool summer, heavy rainfall",
+    "Csa": "Hot-summer Mediterranean - Hot dry summer, mild wet winter",
+    "Csb": "Warm-summer Mediterranean - Dry mild summer, temperate winter",
+    "Csc": "Cold-summer Mediterranean - Cool dry summer, cold winter",
+    "Cwa": "Monsoon-influenced humid subtropical - Hot summer, dry winter",
+    "Cwb": "Subtropical highland - Mild summer, dry winter",
+    "Cwc": "Cold subtropical highland - Cool summer, dry winter",
+    "Dfa": "Hot-summer humid continental - Hot summer (> 22ï¿½C), cold winter (< -3ï¿½C)",
+    "Dfb": "Warm-summer humid continental - Mild summer, cold snowy winter",
+    "Dfc": "Subarctic - Short summer, very cold winter",
+    "Dfd": "Extremely cold subarctic - Extremely cold winter, very short summer",
+    "Dsa": "Hot-summer continental - Hot dry summer, cold winter",
+    "Dsb": "Warm-summer continental - Dry mild summer, cold winter",
+    "Dsc": "Cool-summer continental - Cool dry summer, cold winter",
+    "Dsd": "Very cold continental - Extremely cold winter, dry summer",
+    "Dwa": "Monsoon continental - Hot summer, dry cold winter",
+    "Dwb": "Mild monsoon continental - Mild summer, dry cold winter",
+    "Dwc": "Subarctic monsoon - Cool summer, dry cold winter",
+    "Dwd": "Extremely cold monsoon - Extremely cold dry winter",
+    "ET":  "Tundra - Cool summer (< 10ï¿½C max), permafrost",
+    "EF":  "Ice cap - All months below 0ï¿½C, permanent ice"
+  }
+}
